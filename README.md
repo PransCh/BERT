@@ -1,6 +1,4 @@
 # Bringing BERT to the field: Transformer models for gene expression prediction in maize
-
-**Authors: Benjamin Levy, Shuying Ni, Zihao Xu, Liyang Zhao**  
 Predicting gene expression levels from upstream promoter regions using deep learning. Collaboration between IACS and Inari.
 
 ---
