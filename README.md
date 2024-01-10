@@ -21,7 +21,7 @@ Predicting gene expression levels from upstream promoter regions using deep lear
   - [`pretrain.py`](https://github.com/benlevyx/florabert/blob/master/scripts/1-modeling/pretrain.py): training the FLORABERT base using a masked language modeling task. Type `python scripts/1-modeling/pretrain.py --help` to see command line options, including choice of dataset and whether to warmstart from a partially trained model. Note: not all options will be used by this script.
   - [`finetune.py`](https://github.com/benlevyx/florabert/blob/master/scripts/1-modeling/finetune.py): training the FLORABERT regression model (including newly initialized regression head) on multitask regression for gene expression in all 10 tissues. Type `python scripts/1-modeling/finetune.py --help` to see command line options; mainly for specifying data inputs and output directory for saving model weights.
   - [`evaluate.py`](https://github.com/benlevyx/florabert/blob/master/scripts/1-modeling/evaluate.py): computing metrics for the trained FLORABERT model
-- [`2-feature-visualization/](https://github.com/benlevyx/florabert/tree/master/scripts/2-feature-visualization)`
+- [`2-feature-visualization/`](https://github.com/benlevyx/florabert/tree/master/scripts/2-feature-visualization)`
   - [`embedding_vis.py`](https://github.com/benlevyx/florabert/blob/master/scripts/2-feature-visualization/embedding_vis.py): computing a sample of BERT embeddings for the testing data and saving to a tensorboard log. Can specify how many embeddings to sample with `--num-embeddings XX` where `XX` is the number of embeddings (must be integer).
 
 **`module/`: directory for our customized modules**
